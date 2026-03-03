@@ -18,14 +18,12 @@ export const LastFooterPage = () => {
               <img loading="lazy" src={PhoneSvg} />
               <div>
                 <p>
-                  {" "}
                   Սեղմիր՝
-                  <a href="tel:077215009"> 077-21-50-09</a>
+                  <a href="tel:077215009"> 077-77-77-77</a>
                 </p>
                 <p>
-                  {" "}
                   Սեղմիր՝
-                  <a href="tel:077149983"> 077-14-99-83</a>
+                  <a href="tel:077149983"> 077-88-88-88</a>
                 </p>
               </div>
             </div>

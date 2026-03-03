@@ -39,7 +39,7 @@ export const FirstPage = () => {
             <img src={MainPhoto} />
             <Container>
                 <FirstPagePartContext>
-                    <h2>հարսանյաց <br /> հրավեր</h2>
+                    <h2>Հարսանյաց <br /> հրավեր</h2>
                     <Flexible className="uniqueDiv">
                         <h1>Անդո</h1>
                         <p className="text-[89px]">&</p>
