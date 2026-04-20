@@ -35,13 +35,15 @@ const FirstPagePartContext = styled.div`
     .uniqueDiv {
         flex-direction: column;
         gap: 10px;
-        margin-top: -24px;
-
+        .and {
+            color: #fefefe;
+            margin-bottom: 15px;
+        }
         .uniqueH1 {
-            line-height: 48px;
+            line-height: 0;
         }
         p {
-            color: #965A00;
+            color: #957b70;
             font-family: ArmAllegrou;
             font-weight: 400;
             margin-top: -64px;
@@ -52,10 +54,11 @@ const GridDiv = styled(Flexible)`
     div {
         flex-direction: column;
         text-align: center;
-        border-right: 2px solid #965A00;
+        border-right: 3px solid #3d3a3a;
         padding: 16px 24px;
         h2 {
             font-size: 40px;
+            margin-bottom: 5px;
             font-family: DavelAghvor;
         }
         p {

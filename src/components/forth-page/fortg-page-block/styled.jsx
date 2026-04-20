@@ -8,8 +8,10 @@ export const ForthPageBlockPart = styled.div`
         width: 100%;
         object-fit: cover;
     }
-    h3 {
-        margin: 10px 0;
+    a {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     iframe {
         width: 100%;

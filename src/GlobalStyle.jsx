@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
   body {
     font-family: DavelAghvor;
     letter-spacing: 1px;
@@ -29,11 +33,11 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 100;
   }
   h1 {
-    font-size: 128px;
+    font-size: 100px;
     font-family: ArmAllegrou;
-    color: #965A00;
-    font-weight: 100;
-  }
+    color: #fefefe;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px;  }
 `;
 const Container = styled.div`
   max-width: 390px;

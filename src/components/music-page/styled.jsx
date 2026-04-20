@@ -6,9 +6,9 @@ export const MusicPagePart = styled(Flexible)`
     z-index: 10;
     right: 0;
     top: 65vh;
-    width: 196px;
+    width: 183px;
     height: 60px;
-    background: #965A00;
+    background: #3d3a3a;
     opacity: .8;
     border-radius: 15px;
     color: aliceblue;
@@ -25,7 +25,7 @@ export const MusicPagePart = styled(Flexible)`
             height: 36px;
             border-radius: 50%;
             border: 2px solid aliceblue;
-            background: #965A00;
+            background: #2e2c2c;
         }
         p {
             font-size: 13px;

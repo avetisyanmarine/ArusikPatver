@@ -12,7 +12,6 @@ import { BackToTop } from "./components/top-button"
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
-
   }, []);
 
   return (
@@ -23,7 +22,7 @@ function App() {
       <ThirdPage />
       <ForthPage />
       <LastFooterPage />
-      <BackToTop />
+      {/* <BackToTop /> */}
     </>
   )
 }
