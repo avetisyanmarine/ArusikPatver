@@ -5,6 +5,7 @@ const LastFooterPagePart = styled.div`
   color: aliceblue;
   border-top-left-radius: 70px;
   padding: 40px;
+  margin-top: 30px;
 `;
 const LastFooterPagePartContext = styled.div`
   font-size: 20px;

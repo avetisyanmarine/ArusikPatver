@@ -10,6 +10,9 @@ const ForthPagePartContextLast = styled.div`
     display: block;
     margin: 50px auto;
   }
+  h2 {
+    font-family: ArmAllegrou;
+  }
 `;
 
 export { ForthPagePart, ForthPagePartContext, ForthPagePartContextLast };

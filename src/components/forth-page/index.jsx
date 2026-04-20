@@ -59,6 +59,7 @@ export const ForthPage = () => {
           Խնդրում ենք կապվել մեզ հետ <br /> Ձեր ներկայությունը հաստատելու համար
           մինչև հունիսի 5-ը։
         </h3>
+        <h2 className="text-center font-[ArmAllegrou]">Սիրով՝ <br /> Գարիկ և Արուսիկ</h2>
       </Container>
     </ForthPagePart>
   );
